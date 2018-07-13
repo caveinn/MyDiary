@@ -211,9 +211,9 @@ input[type=submit]:hover{
 /*entry*/
 #entry{
 	background:#2e282a;
-	margin:30px;
+	margin:20px;
 	border-radius:25px;
-	padding:30px;
+	padding:20px;
 	opacity:0.9;
 }
 #entry textarea{
