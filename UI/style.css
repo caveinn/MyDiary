@@ -7,8 +7,8 @@ body{
 	background:#a3a3a3;
 	
 	
-	background-image: url("diary.jpg");
-	background-size:cover;
+	background: url("diary.jpg") no-repeat 0 20px;
+	background-size:cover; 
 	height:100%;
 
 	
@@ -104,6 +104,9 @@ footer{
 	width:100%;
 
 }
+.bolden{
+	font-weight:bold;
+}
 
 /*entries*/
 
@@ -173,6 +176,7 @@ input[type=submit]:hover{
 	border:2px solid #7a5d7e ;
 }
 
+/*information*/
 #information{
 	float:right;
 	margin-top:96px;
@@ -183,4 +187,23 @@ input[type=submit]:hover{
 	opacity:0.8;
 	padding:12px;
    
+}
+
+/*details*/
+#details{
+	background:#2e282a;
+	margin:30px;
+	border-radius:25px;
+	text-align: center;
+	font-size:18px;
+	padding:20px;
+
+}
+#details input[type=checkbox]{
+	width:20px;
+	border:2px solid #27253d;
+}
+#score{
+	font-size:24px;
+	color:#7a5d7e;
 }
