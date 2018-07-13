@@ -207,3 +207,20 @@ input[type=submit]:hover{
 	font-size:24px;
 	color:#7a5d7e;
 }
+
+/*entry*/
+#entry{
+	background:#2e282a;
+	margin:30px;
+	border-radius:25px;
+	padding:30px;
+	opacity:0.9;
+}
+#entry textarea{
+	border-radius:25px;
+
+}
+#entry input[type=text]{
+	width:80%;
+
+}
