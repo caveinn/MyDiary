@@ -93,6 +93,9 @@ header a:hover {
 	border:1px solid #4bbb8b;
  
 }
+textarea{
+	padding:20px; 
+}
 footer{
 	background:#27253d;
 	margin-top:40px;
@@ -101,6 +104,7 @@ footer{
 	text-align: center;
 	position:fixed;
 	bottom: 0;
+	height:10%;
 	width:100%;
 
 }
@@ -215,6 +219,8 @@ input[type=submit]:hover{
 	border-radius:25px;
 	padding:20px;
 	opacity:0.9;
+
+
 }
 #entry textarea{
 	border-radius:25px;
