@@ -88,9 +88,7 @@ header a:hover {
 	min-width: 80px;
 
 }
-.button0:hover{
 
-}
 .button1:hover{
 	background-color: #7dc383;
 }
@@ -244,6 +242,10 @@ input{
 	text-align: center;
 	width:40%;
 	display: none;
+	position: relative;
+	top:-600px;
+	left:200px;
+
 
 }
 #addentry textarea{
